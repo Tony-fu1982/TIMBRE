@@ -1,0 +1,14 @@
+# 运行时数据（SPEC §7：本机数据不入库）
+data/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+*.log
+
+# 本地产物（含密钥/体积大，不入库）
+部署/
+启动.txt
+backend/pytest-result.xml
